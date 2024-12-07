@@ -1,0 +1,7 @@
+The first elements of Alphabet is A or a depends on the require of that issue. From 0 - 25 will symbolize to 26 letter. The best trick is let the shift equal to character number and called that the shift_number. After that divided them into some group like shift_number of character will be 1 group. The last group will contains less elements because shift always > 2 and 26 equals to 2 multi 13, and 13 is a prime, so it's difficult to divided them. BE CAREFUL, the number you will find have to change to the order to determine the character you have to solve. The balance from 0-25 while divided 26 will be itself. The shift is the given hypothesis. 
+
+Encrypto: E(c,k) = (c+k)mod26 + c
+Example: c = E, the order is 5, shift equals to  3, so the prime will be 8 and plus 5 equals to 13, the order of N. So E -> N
+Done the same process with Decrypto with the formula D(c,k) = (c-k)mod26 + c. E -> G
+
+
